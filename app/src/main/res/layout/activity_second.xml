@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+
+    <ImageView
+        android:id="@+id/main_background"
+        android:layout_width="397dp"
+        android:layout_height="179dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/rectangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_foto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/text_welcome"
+
+        android:textColor="@color/white"
+        android:textSize="@dimen/welcome_text_size"
+        app:layout_constraintBottom_toTopOf="@+id/text_foto1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text_foto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/main_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"
+        android:text="@string/text_welcome1"
+        android:textSize="@dimen/title_text_size"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/main_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="112dp"
+        android:layout_height="93dp"
+        app:layout_constraintTop_toTopOf="@+id/main_background"
+        android:background="@color/seryi"
+        android:src="@drawable/ic_vector"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="214dp"
+        android:layout_marginRight="15dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textStyle="bold"
+        />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="112dp"
+            android:layout_height="93dp"
+            app:layout_constraintTop_toTopOf="@+id/main_background"
+            android:background="@color/seryi"
+            android:src="@drawable/ic_vector2"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="214dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="112dp"
+            android:layout_height="93dp"
+            android:layout_marginLeft="15dp"
+            app:layout_constraintTop_toTopOf="@+id/main_background"
+            android:background="@color/seryi"
+            android:src="@drawable/ic_vector1"
+            tools:layout_editor_absoluteX="281dp"
+            tools:layout_editor_absoluteY="214dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:text="@string/text_chislo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title_text_size1"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear_layout" />
+
+    <Button
+        android:id="@+id/button_chislo"
+        android:layout_width="183dp"
+        android:layout_height="43dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="56dp"
+        android:text="Перейти"
+        android:backgroundTint="@color/roz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

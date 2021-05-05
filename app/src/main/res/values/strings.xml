@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">lesson1</string>
+    <string name="text_main_desc">Выполните вход или зарегистрируйтесь</string>
+    <string name="text_main_welcome">Добро пожаловать!</string>
+    <string name="text_main_title">Вход</string>
+    <string name="text_enter_password">Введите ваш пароль</string>
+    <string name="text_enter_email">Введите вашу почту</string>
+    <string name="text_singIn">Войти</string>
+    <string name="text_zabyl">Забыл пароль</string>
+    <string name="text_welcome">The Colosseum</string>
+    <string name="text_welcome1">One of the most recognizable sites in the world</string>
+    <string name="text_chislo">312</string>
+</resources>
