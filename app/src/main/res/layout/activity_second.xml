@@ -23,7 +23,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:text="@string/text_welcome"
-
         android:textColor="@color/white"
         android:textSize="@dimen/welcome_text_size"
         app:layout_constraintBottom_toTopOf="@+id/text_foto1"
@@ -62,8 +61,7 @@
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/image1"
@@ -97,10 +95,10 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/text_view"
+        android:id="@+id/text_view2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="80dp"
         android:text="@string/text_chislo"
         android:textAlignment="center"
         android:textColor="@color/black"
@@ -115,11 +113,11 @@
         android:layout_width="183dp"
         android:layout_height="43dp"
         android:layout_marginHorizontal="25dp"
-        android:layout_marginTop="56dp"
-        android:text="Перейти"
+        android:layout_marginTop="36dp"
         android:backgroundTint="@color/roz"
+        android:text="Перейти"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_view" />
+        app:layout_constraintTop_toBottomOf="@+id/text_view2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,4 +10,5 @@
     <string name="text_welcome">The Colosseum</string>
     <string name="text_welcome1">One of the most recognizable sites in the world</string>
     <string name="text_chislo">312</string>
+    <string name="text_enter_chislo">Введите цифру</string>
 </resources>
